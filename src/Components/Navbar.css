@@ -12,7 +12,7 @@
     .logo {
       font-size: 2rem;
       font-weight: bold;
-      color: #333;
+      color: var(--primary-text-color);
     }
 
     .bars {
@@ -32,7 +32,7 @@
 
       li {
         cursor: pointer;
-        transition: color 0.3s;
+        color: var(--primary-text-color);
 
         a {
           color: var(--primary-text-color);
@@ -68,6 +68,9 @@
     margin-top: 2rem;
 
     li {
+      a {
+        color: var(--primary-text-color);
+      }
       button {
         margin: auto;
       }
