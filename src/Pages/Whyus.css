@@ -1,0 +1,24 @@
+.whyus {
+  color: var(--primary-text-color);
+  .container {
+    .items {
+      display: flex;
+      gap: 2rem;
+      text-align: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      .item {
+        max-width: 350px;
+        span {
+          font-size: 4rem;
+        }
+        h2 {
+          margin: 1rem 0;
+        }
+        p {
+          color: rgb(202, 200, 200);
+        }
+      }
+    }
+  }
+}
